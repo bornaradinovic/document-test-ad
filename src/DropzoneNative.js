@@ -15,6 +15,7 @@ export function DropzoneNative() {
         if (item.kind === 'file') {
           const file = item.getAsFile();
           console.log(`… file[${i}].name = ${file.name}`);
+          console.log(file)
         }
       });
     } else {
